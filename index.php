@@ -11,14 +11,14 @@
     <div class="titulo">
         <h1>Digite o nome dos jogadores</h1>
     </div>
-    <form action="">
+    <form action="" method="POST">
         <div class="jogador">
             <div class="x">
                 <img src="./image/x.png" alt="">
                 <br>
                 <label for="">Jogador 1:</label>
                 <br>
-                <input type="text">
+                <input type="text" name="nome1">
                 <br>
             </div>
             <div class="circulo">
@@ -27,11 +27,13 @@
                 <label for="">Jogador 2:</label>
                 <br>
                 <input type="text">
-            </div>
+            </div
+            >
+        </div>
+        <div class="botao">
+            <a href="./jogo-velha.php"><button>Jogar</button></a>
         </div>
     </form>
-    <div class="botao">
-        <a href="./jogo-velha.php"><button>Jogar</button></a>
-    </div>
+
 </body>
 </html>

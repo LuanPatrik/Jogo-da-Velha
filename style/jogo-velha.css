@@ -1,11 +1,6 @@
 .voltar{
     justify-content: flex-start;
-}
-
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 50%;
 }
 
 .matriz{
@@ -24,4 +19,11 @@ body{
     height:100%;
     border-right:solid 1px;
     float:left;
+    cursor: pointer;
+}
+
+.marcar{
+    width:200px;
+    height:100%;
+    background-color: white;
 }

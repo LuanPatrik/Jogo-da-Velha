@@ -13,7 +13,7 @@
     </div>
     <div class="matriz">
         <div class="linha">
-            <div class="casa" id="casa1" ></div>
+            <div class="casa" id="casa1"><?php marcar()?></div>
             <div class="casa" id="casa2"></div>
             <div class="casa" id="casa3"></div>
         </div>
@@ -23,14 +23,23 @@
             <div class="casa" id="casa6"></div>
         </div>
         <div class="linha">
-            <div class="" id="casa7"></div>
-            <div class="" id="casa8"></div>
-            <div class="" id="casa9"></div>
+            <div class="casa" id="casa7"></div>
+            <div class="casa" id="casa8"></div>
+            <div class="casa" id="casa9"></div>
         </div>
     </div>
 </body>
 
 <?php
-
+    $jogador1 = filter_input(INPUT_POST, 'nome1');
+    echo 'Nome: '.$jogador1;
+    $cont = 1;
+    function marcar(){
+        if ($jogador == 1 && $cont == 1) {
+            ?>
+            <img src="./image/x.png" alt="">
+            <?php
+        }
+    }
 ?>
 </html>
