@@ -1,0 +1,18 @@
+.game {
+	display: inline-block;
+	margin: 20px;
+}
+
+.row {
+	display: flex;
+}
+
+.square {
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	margin: 5px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+}

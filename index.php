@@ -1,28 +1,33 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="" href="index.css"/>   
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+	<title>Jogo da Velha</title>
+	<link rel="stylesheet" type="text/css" href="./style/style.css">
 </head>
 <body>
-        <div id="jogo">
-            <div class="linha">
-                <div class="casa" id="casa1"></div>
-                <div class="casa" id="casa2"></div>
-                <div class="casa" id="casa3"></div>
-            </div>
-            <div class="linha">
-                <div class="casa" id="casa4"></div>
-                <div class="casa" id="casa5"></div>
-                <div class="casa" id="casa6"></div>
-            </div>
-            <div class="linha">
-                <div class="casa" id="casa7"></div>
-                <div class="casa" id="casa8"></div>
-                <div class="casa" id="casa9"></div>
-            </div>
-        </div>
-        <div id="resultado"></div>
+	<div class="game">
+		<div class="row">
+			<div class="square" id="0"></div>
+			<div class="square" id="1"></div>
+			<div class="square" id="2"></div>
+		</div>
+		<div class="row">
+			<div class="square" id="3"></div>
+			<div class="square" id="4"></div>
+			<div class="square" id="5"></div>
+		</div>
+		<div class="row">
+			<div class="square" id="6"></div>
+			<div class="square" id="7"></div>
+			<div class="square" id="8"></div>
+		</div>
+	</div>
+
+	<form action="jogar.php" method="POST">
+		<input type="hidden" name="tabuleiro" id="tabuleiro">
+		<input type="submit" value="Jogar">
+	</form>
+
+	<script src="script.js"></script>
 </body>
 </html>
