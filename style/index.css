@@ -1,0 +1,49 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogador{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.joagador img{
+    display: flex;
+    justify-content: center;
+}
+
+.x{
+    margin-bottom: 3em;
+}
+
+.circulo{
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+form label{
+    font-size: 28px;
+}
+
+form input{
+    font-size: 20px;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.botao{
+    display: flex;
+    justify-content: center;
+}

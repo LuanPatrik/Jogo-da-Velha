@@ -1,3 +1,7 @@
+.voltar{
+    justify-content: flex-start;
+}
+
 body{
     display: flex;
     align-items: center;
