@@ -1,49 +1,17 @@
-.titulo{
-    display: flex;
-    justify-content: center;
+#jogo{
+    width:603px;
+    height:600px;
+    border:solid 3px
 }
-
-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+ 
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
 }
-
-.jogador{
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
-
-.joagador img{
-    display: flex;
-    justify-content: center;
-}
-
-.x{
-    margin-bottom: 3em;
-}
-
-.circulo{
-    align-items: center;
-    margin-bottom: 3em;
-}
-
-form label{
-    font-size: 28px;
-}
-
-form input{
-    font-size: 20px;
-}
-
-button{
-    width: 100px;
-    height: 45px;
-    font-size: 20px;
-}
-
-.botao{
-    display: flex;
-    justify-content: center;
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
 }
